@@ -62,6 +62,7 @@ public final class ScriptID
 	 * </ul>
 	 */
 	public static final int RUNELITE_CHATBOX_INPUT_INIT = 10001;
+	public static final int QUEST_LIST_INIT = 1350;
 
 	/**
 	 * Does nothing
