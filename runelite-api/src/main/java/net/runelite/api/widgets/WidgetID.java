@@ -111,6 +111,7 @@ public class WidgetID
 	public static final int WORLD_SWITCHER_GROUP_ID = 69;
 	public static final int DIALOG_OPTION_GROUP_ID = 219;
 	public static final int DIALOG_PLAYER_GROUP_ID = 217;
+	public static final int QUEST_LIST_GROUP_ID = 399;
 
 	static class WorldMap
 	{
@@ -336,6 +337,7 @@ public class WidgetID
 	static class ResizableViewportBottomLine
 	{
 		static final int LOGOUT_BUTTON_OVERLAY = 29;
+		static final int QUESTS_TAB = 50;
 		static final int INVENTORY_TAB = 51;
 		static final int PRAYER_TAB = 53;
 		static final int QUESTS_ICON = 57;
@@ -601,5 +603,16 @@ public class WidgetID
 	static class WorldSwitcher
 	{
 		static final int WORLD_LIST = 14;
+	}
+	
+	static class QuestList
+	{
+		static final int QUEST_LIST_QP = 0;
+		static final int QUEST_LIST_CONTROL = 4;
+		static final int QUEST_LIST_LISTS = 6;
+		static final int QUEST_LIST_FREE = 7;
+		static final int QUEST_LIST_MEMBERS = 8;
+		static final int QUEST_LIST_MINIQUESTS = 9;
+		static final int QUEST_LIST_SCROLLBAR = 10;
 	}
 }
